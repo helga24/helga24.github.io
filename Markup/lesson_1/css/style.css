@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
 }
+
 body {
   padding: 10px;
   background-color: #CCC;
@@ -10,35 +11,41 @@ body {
   font-size: 18px;
   line-height: 26px;  
 }
+
 .wrapper {
   width: 410px;
   background-color: white;
   margin: 0 auto;
   padding: 48px 50px 55px 50px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
 .center { text-align: center; }
-.margin-bottom {margin-bottom: 26px;}
-.block{
+
+.text-block {
   border-bottom: 1px solid grey;
   margin-bottom: 22px;
+  padding-bottom: 16px;
 }
+.paragraph{ margin-top: 26px; }
+
 h2 {
   font-size: 23px;
   margin-top: 0;
   letter-spacing: -0.6px;
 }
+
 p,
-ul {
-  margin: 12px 0;
-}
+ul { margin: 0; }
+
 ul {
   margin: 26px 0 16px 17px;
   padding: 0;
   list-style-position: inside;
 }
-p {
-  padding: 0 10px;
-}
+
+p { padding: 0 10px; }
+
 .photo img {
   vertical-align: bottom; 
   height: auto;
