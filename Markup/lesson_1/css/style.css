@@ -29,14 +29,12 @@ body {
 }
 .paragraph{ margin-top: 26px; }
 
+
 h2 {
   font-size: 23px;
   margin-top: 0;
   letter-spacing: -0.6px;
 }
-
-p,
-ul { margin: 0; }
 
 ul {
   margin: 26px 0 16px 17px;
@@ -44,10 +42,16 @@ ul {
   list-style-position: inside;
 }
 
-p { padding: 0 10px; }
+p { padding: 0 10px;
+    margin: 0; }
 
-.photo img {
+.photo {
   vertical-align: bottom; 
   height: auto;
   max-width: 130px;
+  margin-bottom: 8px;
+}
+
+.photo + p {
+  text-align: left;
 }
