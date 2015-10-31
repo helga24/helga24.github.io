@@ -1,0 +1,155 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 13px;
+}
+
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
+
+.wrapper {
+  width: 1060px;
+  margin: 0 auto;
+  box-shadow: 0 0 5px rgba(0,0,0,0.3);
+  padding: 50px 45px;
+  box-sizing: border-box; 
+}
+
+.logo {
+  margin-bottom: 40px;
+}
+
+.header {
+  margin-bottom: 40px;
+}
+
+.header-menu {
+  line-height: 40px;
+  background: #5e5e5e;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzVlNWU1ZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0NDQzNDMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  #5e5e5e 0%, #444343 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#5e5e5e), color-stop(100%,#444343));
+  background: -webkit-linear-gradient(top,  #5e5e5e 0%,#444343 100%);
+  background: -o-linear-gradient(top,  #5e5e5e 0%,#444343 100%);
+  background: -ms-linear-gradient(top,  #5e5e5e 0%,#444343 100%);
+  background: linear-gradient(to bottom,  #5e5e5e 0%,#444343 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e5e5e', endColorstr='#444343',GradientType=0 );
+}
+
+.header-menu li {
+  display: inline-block;
+  padding: 0 20px;
+  margin-right: 40px;
+  font-size: 15px;
+  border: 1px solid transparent;
+  border-top: 0;
+  border-bottom: 0;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.header-menu li:hover {
+  border-color: #838383;
+  background: #4a4a4a;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzRhNGE0YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyZTJlMmUiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top,  #4a4a4a 0%, #2e2e2e 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4a4a4a), color-stop(100%,#2e2e2e));
+  background: -webkit-linear-gradient(top,  #4a4a4a 0%,#2e2e2e 100%);
+  background: -o-linear-gradient(top,  #4a4a4a 0%,#2e2e2e 100%);
+  background: -ms-linear-gradient(top,  #4a4a4a 0%,#2e2e2e 100%);
+  background: linear-gradient(to bottom,  #4a4a4a 0%,#2e2e2e 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4a4a4a', endColorstr='#2e2e2e',GradientType=0 );
+}
+
+.header-menu a {
+  text-decoration: none;
+  color: white;
+}
+
+.sidebar-menu {
+  border: 1px solid #c8c8c8;
+}
+
+.sidebar-menu li {
+  line-height: 39px;
+  border-top: 1px solid #c8c8c8;
+  padding: 0 20px;
+}
+
+.sidebar-menu li:first-child {
+  border-top-color: transparent;
+}
+
+.sidebar-menu a {
+  text-decoration: none;
+  color: #656363;
+}
+
+.sidebar-menu li:hover {
+  background: #f9f9f9;
+  color: #2c2c2c;
+}
+
+.sidebar-menu a:hover {
+  padding-left: 10px;
+}
+
+.sidebar {
+  float: left;
+  width: 240px;
+}
+
+.content {
+  float: right;
+  width: 680px;
+  margin: 0 auto;
+}
+
+.image-velo {
+  padding: 45px 0;
+  border: 1px solid #c8c8c8;
+  margin-bottom: 32px;
+  text-align: center;
+}
+
+.text {
+  color: #2c2c2c;
+  line-height: 21px;
+  padding: 0 24px;
+}
+
+.footer {
+  margin-top: 60px;
+  background: #e1e1e1;
+}
+
+.footer-menu {
+  line-height: 40px;
+  float: left;
+}
+
+.footer-menu li {
+  display: inline-block;
+  padding: 0 25px;
+  margin-right: 40px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #2c2c2c;
+}
+
+.footer-menu a:hover {
+  text-decoration: underline;
+}
+
+.copyright {
+  line-height: 40px;
+  float: right;
+  padding: 0 40px;
+  text-decoration: none;
+  color: #2c2c2c;
+}
