@@ -4,10 +4,19 @@ body {
 	font-size: 14px;
 }
 
+img {
+	vertical-align: bottom;
+}
+
 .wrapper {
 	width: 1000px;
 	margin: 0 auto;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.header {
+	color:#128aa7;
+	font-size: 12px; 
 }
 
 .clearfix::after {
@@ -31,13 +40,43 @@ body {
 	font-size: 12px;
 }
 
-.info {
-	float: right;
+.countries {
+	margin-right: 20px;
+	margin-bottom: 10px;
 }
 
-/* TODO: delete after */
-.menu > ul > li > ul {
-	display: none;
+.countries li {
+	display: inline-block;
+	font-size: 10px;
+	margin-right: 8px;
+	text-align: center;
+}
+
+.countries img {
+	display: block;
+	margin:0 auto;
+
+}
+
+.countries a {
+	color:#128aa7;
+}
+
+.contacts {
+	width: 150px;
+	line-height: 18px;
+	margin-left: auto;
+	margin-right: 0;
+	margin-top: 2px;
+	margin-bottom: 30px;
+}
+
+.our-contacts {
+	font-weight: bold;
+}
+
+.info {
+	float: right;
 }
 
 .menu {
@@ -60,11 +99,24 @@ body {
 .menu li {
 	color: white;
 	display: inline-block;
-	margin-left:  40px;
 	padding: 0 15px;
-	font-size: 14px;
-	border-top: 0;
-	border-bottom: 0;
+	font-size: 14px;	
+}
+
+.menu > ul > li {
+	margin-left: 40px;
+}
+
+.menu > ul > li > ul {
+	position: absolute;
+	background: #303030;
+	min-width: 150px;
+	box-shadow: 0 4px 5px 0px rgba(0,0,0,0.7);
+	display: none;
+}
+
+.menu ul>li:hover ul {
+	display: block;
 }
 
 .menu a {
@@ -74,50 +126,73 @@ body {
 
 .main-content { 
 	overflow: hidden;
-	}
+}
+
+.menu ul li ul li {
+	display: block;
+}
 
 .fon-1 {
 	width: 100%;
-	background: grey;
+	background: #edeef0;
 	float: left;
 	position: relative;
-	right: 30%;
+	right: 58%;
+	border-right: 1px solid #c7cacf;
+	box-sizing: border-box;
 }
 
 .fon-2 {
 	width: 100%;
-	background: yellow;
+	background: #ffffff;
 	float: left;
 	position: relative;
-	right: 40%;
+	right: 21%;
+	border-right: 1px solid #c7cacf;
+	box-sizing: border-box;
 }
 
 .fon-3 {
 	width: 100%;
-	background: red;
+	background: #edeef0;
 	float: left;
 }
 
 .sidebar-left {
-	width: 30%;
+	width: 21%;
 	float: left;
 	overflow: hidden; 
 	position:relative;
-	left:70%;
+	left:79%;
+	min-height: 20px;	
 }
 
 .content {
-	width: 30%;
+	width: 58%;
 	float: left;
 	overflow: hidden; 
 	position:relative;
-	left:70%;
+	left:79%;
+	min-height: 20px;
 }
 
 .sidebar-right {
-	width: 40%;
+	width: 21%;
 	float: left;
 	overflow: hidden; 
 	position:relative;
-	left:70%;
+	left:79%;
+	min-height: 20px;
+}
+
+h3 {
+	font-size: 18px;
+	text-align: center;
+	padding: 5px 5px;
+}
+
+.sidebar-left p, .sidebar-right p {
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 15px;
 }
