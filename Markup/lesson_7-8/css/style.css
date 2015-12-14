@@ -55,6 +55,7 @@ body::before {
 .grid {
 	margin: 0 auto;
 	width: 960px;
+	box-sizing: border-box;
 }
 
 .header {
@@ -73,7 +74,7 @@ body::before {
 
 .header-menu li {
 	display: inline-block;
-	margin-left: 47px;
+	margin-right: 47px;
 }
 
 .header-menu a {
@@ -518,19 +519,3 @@ body::before {
 .footer a:hover {
 	text-decoration: underline;
 }
-
-
-
-
-/* Tablet */
-@media screen and (max-width: 959px) {
-
-}
-
-/* Mini-tablet */
-@media screen and (max-width: 767px) {
-	
-}
-
-/* Mobile */
-@media screen and (max-width: 479px) {}
